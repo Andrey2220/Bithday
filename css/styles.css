@@ -1,4 +1,5 @@
-@import url(https:fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     transition: all 0,2s ease-in-out;
 }
@@ -37,7 +38,7 @@ body {
     }
 }
 
-@media only screen and (max-height:640) {
+@media only screen and (max-height: 640px) {
     .card {
         flex-direction: row-reverse;
     }
